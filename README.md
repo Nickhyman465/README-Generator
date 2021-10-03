@@ -18,6 +18,9 @@ You must install inquirer by running 'npm install inquirer' in you develop folde
 ---
 ## Usage
 Using the command line or integrated terminal, you respond to prompts that help generate the awesome README.
+- [Repo Link](https://github.com/Nickhyman465/README-Generator) 
+- [Demo](https://drive.google.com/file/d/1NdPNed8QX84T0cOQSuSfiQH2_Ug3kMvt/view?usp=sharing)
+
 ---
 ## Credits
 
