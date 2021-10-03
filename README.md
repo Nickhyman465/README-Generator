@@ -2,7 +2,7 @@
 ## Description
 This application helps developers save time buy offering them a quicker way to make an amazing README. The user is given prompts to help generate a clean README file, and that file is written in markdown for the user
 
-
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ---
 ## Table of Contents
 - [Installation](#installation)
@@ -23,7 +23,7 @@ Using the command line or integrated terminal, you respond to prompts that help 
 
 ---
 ## License 
-[((https://img.shields.io/badge/License-MIT-yellow.svg))([MIT]:https://choosealicense.com/licenses/mit/)]
+This project is protected by [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ---
 ## Features
 
