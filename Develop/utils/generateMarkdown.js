@@ -42,12 +42,16 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ## Description
 ${data.description}
+${renderLicenseSection(data.license)}
 ---
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Tests](#tests)
+- [Questions](#questions)
 ---
 ## Installation
 ${data.installation}
@@ -66,6 +70,14 @@ The last section of a high-quality README file is the license. This lets other d
 ---
 ## Features
 ${data.features}
+---
+## Tests
+${data.tests}
+---
+## Questions
+(https://github.com/${data.github})
+If you have any additional questions, please contact me at ${data.email}
+
 `;
 }
 

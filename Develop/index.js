@@ -7,18 +7,24 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your project?'
+        message: 'What is the name of your application?'
         },
     {
         type: 'input',
-        name: 'name',
-        message: 'What is describtion for your application?',
+        name: 'description',
+        message: 'What is the describtion for your application?',
       },
     {
         type: 'input',
-        name: 'name',
+        name: 'installation',
         message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
       },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'How does your application function?',
+      },
+      
 ];
 
 // TODO: Create a function to write README file
