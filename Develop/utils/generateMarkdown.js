@@ -2,11 +2,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license === 'MIT'){
-    return  `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
+    return  `https://img.shields.io/badge/License-MIT-green.svg`
   } else if(license === 'GNU GPLv3') {
-    return `![License: GNU GPLv3]https://img.shields.io/badge/License-GPLv3-blue.svg`
+    return `https://img.shields.io/badge/License-GPLv3-blue.svg`
   } else if(license === 'Apache 2.0') {
-    return `![License: Apache 2.0]https://img.shields.io/badge/License-Apache%202.0-blue.svg`
+    return `https://img.shields.io/badge/License-Apache%202.0-blue.svg`
   } else {
     return '';
   }
@@ -30,8 +30,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license) {
-    return `## License 
-    [![License: ${license}](${renderLicenseBadge(license)})](${renderLicenseLink(license)})`
+    return `[![License](${renderLicenseBadge(license)})](${renderLicenseLink(license)})`
   }else {
     return ''
   }
@@ -63,7 +62,7 @@ ${data.usage}
 ${data.credits}
 ---
 ## License
-${renderLicenseSection(data.license)}
+This project is protected by ${renderLicenseSection(data.license)}
 ---
 ## Features
 ${data.features}
